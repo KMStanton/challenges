@@ -1,5 +1,5 @@
 <?php
-$fisdap=1;
+$fisdap=0;
 while($fisdap++ && $fisdap<=100){
     echo $fisdap;
     echo is_int($fisdap/3) ? 'fis' : '';
